@@ -26,6 +26,7 @@
 
 	<modules>
 		<module>xbird-cloud-config</module>
+		<module>xbird-cloud-netflix</module>
 	</modules>
 
 </project>
