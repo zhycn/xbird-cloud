@@ -20,6 +20,7 @@
 		<module>xbird-cloud-netflix-hystrix</module>
 		<module>xbird-cloud-netflix-turbine</module>
 		<module>xbird-cloud-netflix-ribbon</module>
+		<module>xbird-cloud-netflix-zuul</module>
 	</modules>
 
 </project>
