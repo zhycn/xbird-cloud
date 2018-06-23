@@ -7,3 +7,5 @@
 - [新增] 添加 Spring Cloud Netflix 项目。
 - [新增] 添加 Spring Cloud Bus 项目。
 - [新增] 添加 Spring Cloud OpenFeign 项目。
+- [新增] 添加 Spring Cloud Netflix Hystrix 项目。
+- [新增] 添加 Spring Cloud Netfilx Turbine 项目。

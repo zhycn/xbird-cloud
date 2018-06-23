@@ -17,6 +17,8 @@
 	<modules>
 		<module>xbird-cloud-netflix-eureka-server</module>
 		<module>xbird-cloud-netflix-eureka-client</module>
+		<module>xbird-cloud-netflix-hystrix</module>
+		<module>xbird-cloud-netflix-turbine</module>
 	</modules>
 
 </project>
