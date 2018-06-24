@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xbird-cloud-binder
+server:
+  port: 8016

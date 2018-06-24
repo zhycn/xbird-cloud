@@ -25,10 +25,13 @@
 	</properties>
 
 	<modules>
+		<module>xbird-cloud-binder</module>
 		<module>xbird-cloud-bus</module>
 		<module>xbird-cloud-config</module>
 		<module>xbird-cloud-netflix</module>
 		<module>xbird-cloud-openfeign</module>
+		<module>xbird-cloud-sleuth</module>
+		<module>xbird-cloud-stream</module>
 	</modules>
 
 	<dependencyManagement>

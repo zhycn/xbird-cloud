@@ -11,3 +11,6 @@
 - [新增] 添加 Spring Cloud Netfilx Turbine 项目。
 - [新增] 添加 Spring Cloud Netfilx Ribbon 项目。
 - [新增] 添加 Spring Cloud Netfilx Zuul 项目。
+- [新增] 添加 Spring Cloud Stream 项目。
+- [新增] 添加 Spring Cloud Binder Implementations 项目。
+- [新增] 添加 Spring Cloud Sleuth 项目。
