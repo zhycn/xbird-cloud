@@ -2,14 +2,12 @@ spring:
   application:
     name: xbird-cloud-netflix-ribbon
 server:
-  port: 8010
+  port: 8084
 eureka:
   instance:
     preferIpAddress: true
     metadataMap:
-      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
   client:
-    registerWithEureka: false
-    fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/

@@ -1,13 +1,13 @@
 spring:
   application:
-    name: xbird-cloud-netflix-turbine
+    name: xbird-cloud-netflix-zuul
 server:
-  port: 8030
+  port: 8085
 eureka:
   instance:
     preferIpAddress: true
     metadataMap:
-      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
