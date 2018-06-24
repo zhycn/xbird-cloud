@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xbird-cloud-zookeeper
+server:
+  port: 8017

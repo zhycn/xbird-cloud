@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xbird-cloud-security
+server:
+  port: 8019
