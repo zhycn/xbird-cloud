@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xbird-cloud-function
+server:
+  port: 8019
