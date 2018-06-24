@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: xbird-cloud-bus
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    config:
+      name: config-client
+      label: master
+      profile: dev
+      discovery:
+        serviceId: xbird-cloud-config-server
+server:
+  port: 8900
+eureka:
+  instance:
+    preferIpAddress: true
+    metadataMap:
+      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
